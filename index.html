@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Main Menu -->
+    <header>
+        <nav>
+            <button onclick="navigateTo('write')">Write</button>
+            <button onclick="navigateTo('review')">Review</button>
+            <button onclick="navigateTo('about')">About</button>
+            <button onclick="navigateTo('dataset')">Dataset</button>
+            <button id="auth-button" onclick="handleAuth()">Login/Signup</button>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main id="content">
+        <!-- Write Page (Default) -->
+        <section id="write-page">
+            <div class="text-container">
+                <div class="text-area">
+                    <h2>English</h2>
+                    <p id="english-text">This is where the English text to be translated will appear.</p>
+                </div>
+                <div class="text-area">
+                    <h2>Monglish</h2>
+                    <textarea id="monglish-input" placeholder="Write the Malayalam text here..."></textarea>
+                </div>
+            </div>
+            <div class="actions">
+                <button onclick="submitTranslation()">Submit</button>
+                <button onclick="skipTranslation()">Skip</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
