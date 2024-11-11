@@ -4,17 +4,15 @@ This platform enables users to translate English text into Monglish, contributin
 
 The data collected would be shared publicly.
 
-Key features:
-
-A MySQL database is used to store user information, including username, password, and the number of texts translated.
-Users can translate English text and track their progress through their scores.
-
-English texts are uploaded to a central database and displayed randomly for translation.
-The translated content will be stored in a seperate table.
-
-Users can review the translated content by upvoting/downvoting to make sure the content is accurate.
-
-This platform aims to enhance the quality and availability of Malayalam datasets by encouraging user participation in translation tasks.
+# Features
+## User Registration & Authentication: 
+Users can sign up, log in, and track their translation progress.
+## Translation Interface: 
+English texts are uploaded to the platform and randomly displayed. Users translate the texts into Monglish, which is stored in the database.
+## User Progress Tracking: 
+Tracks the number of texts translated by each user, allowing users to see their contribution and improvement.
+## Database Integration:
+A MySQL database stores user details (username, password, and translated text count) and the English-Monglish translations.
 
 
 
