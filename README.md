@@ -5,13 +5,13 @@ This platform enables users to translate English text into Monglish, contributin
 The data collected would be shared publicly.
 
 # Features
-## User Registration & Authentication: 
+#### User Registration & Authentication: 
 Users can sign up, log in, and track their translation progress.
-## Translation Interface: 
+#### Translation Interface: 
 English texts are uploaded to the platform and randomly displayed. Users translate the texts into Monglish, which is stored in the database.
-## User Progress Tracking: 
+#### User Progress Tracking: 
 Tracks the number of texts translated by each user, allowing users to see their contribution and improvement.
-## Database Integration:
+#### Database Integration:
 A MySQL database stores user details (username, password, and translated text count) and the English-Monglish translations.
 
 
