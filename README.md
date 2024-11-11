@@ -8,7 +8,12 @@ Key features:
 
 A MySQL database is used to store user information, including username, password, and the number of texts translated.
 Users can translate English text and track their progress through their scores.
+
 English texts are uploaded to a central database and displayed randomly for translation.
+The translated content will be stored in a seperate table.
+
+Users can review the translated content by upvoting/downvoting to make sure the content is accurate.
+
 This platform aims to enhance the quality and availability of Malayalam datasets by encouraging user participation in translation tasks.
 
 
