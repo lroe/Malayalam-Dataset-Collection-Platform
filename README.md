@@ -1,6 +1,8 @@
 # Malayalam-Dataset-Collection-Platform [Work IN Progress]
 
-This platform enables users to translate English text into Monglish, contributing to the collection of high-quality Malayalam datasets.
+This platform enables users to translate English text into Monglish, contributing to the collection of high-quality Malayalam datasets so as to train better language models in malayalam language.
+
+The data collected would be shared publicly.
 
 Key features:
 
