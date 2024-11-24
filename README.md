@@ -2,7 +2,8 @@
 
 This platform enables users to translate English text into Monglish, contributing to the collection of high-quality Malayalam datasets so as to train better language models in malayalam language.
 
-The data collected would be shared publicly.
+The data collected would be stored in my mysql database and will be shared publicly.
+
 
 # Features
 #### User Registration & Authentication: 
