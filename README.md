@@ -4,7 +4,7 @@ This platform enables users to translate English text into Monglish, contributin
 
 The data collected would be stored in my mysql database and will be shared publicly.
 
-
+ 
 # Features
 #### User Registration & Authentication: 
 Users can sign up, log in, and track their translation progress.
